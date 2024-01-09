@@ -73,7 +73,15 @@
       right: 0px;
       display: block;
     }
-    
+    .soft-field {
+      width: 100%;
+      padding: 10px;
+      outline: none;
+      border:2px solid #fc6767;
+    }
+    .soft-field:focus {
+      border: 2px solid #ec008c;
+    }
     
 </style>
   <body>
@@ -87,14 +95,13 @@
 
       <div class= "col-sm">
 
-        
-        <a class="text-dark" id ="btn-nav">
-          <i  class="fas fa-envelop "></i><span class="total">6</span> 
-        </a>
         <a class="text-dark" id ="btn-nav">
           <i class="fas fa-bell"></i><span class="pending">5</span> 
         </a>
-        
+        <a class="soft-codeon" id ="btn-nav">
+          <i class="fa fa-envelope icon"></i><span class="total">6</span>
+
+        </a>
       </div>
       
 
